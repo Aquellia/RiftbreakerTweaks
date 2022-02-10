@@ -3012,6 +3012,27 @@ FlowGraphTemplate
 
 		}
 
+		LuaBehaviourNode
+		{
+			//editor "layout(mission_discoverable_system.xml)|pos(573,948)"
+			script "lua/graph/mission_state/mission_discoverable_system.lua"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "state"
+						value "Enable"
+					}
+
+				}
+
+			}
+
+			self_id "mission_discoverable_system_0"
+		}
+
 	}
 
 	GraphConnections
@@ -3102,7 +3123,7 @@ FlowGraphTemplate
 		logic_or_3 "logic_if_exist_building_0|logic_if_exist_entity_new_2|logic_wait_7"
 		entity_spawn_player_0 "event_graph_0|event_graph_19"
 		event_graph_0 "logic_wait_0"
-		default "entity_spawn_player_0"
+		default "entity_spawn_player_0|mission_discoverable_system_0"
 	}
 
 }
