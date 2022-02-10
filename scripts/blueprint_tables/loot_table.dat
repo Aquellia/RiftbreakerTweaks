@@ -29387,8 +29387,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_ferdonite_item"
@@ -29416,8 +29414,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_tanzanite_item"
@@ -29445,8 +29441,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_rhodonite_item"
@@ -29474,8 +29468,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_hazenite_item"
@@ -29509,8 +29501,6 @@ Blueprints
 			max "250"
 			gather_amount "250"
 			package_size "35"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -29589,8 +29579,6 @@ Blueprints
 			max "250"
 			gather_amount "250"
 			package_size "35"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -29675,8 +29663,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_hazenite_item"
@@ -29746,8 +29732,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -29809,8 +29793,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_hazenite_item"
@@ -29880,8 +29862,6 @@ Blueprints
 			max "40"
 			gather_amount "40"
 			package_size "10"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_hazenite_item"
@@ -29951,8 +29931,6 @@ Blueprints
 			max "40"
 			gather_amount "40"
 			package_size "10"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_hazenite_item"
@@ -30027,8 +30005,6 @@ Blueprints
 			max "40"
 			gather_amount "40"
 			package_size "10"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_hazenite_item"
@@ -30098,8 +30074,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_rhodonite_item"
@@ -30169,8 +30143,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_rhodonite_item"
@@ -30241,8 +30213,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_rhodonite_item"
@@ -30318,8 +30288,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -30389,8 +30357,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -30452,8 +30418,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -30731,8 +30695,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -31345,8 +31307,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_hazenite_item"
@@ -31371,8 +31331,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_cobalt_item"
@@ -31401,8 +31359,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 	}
@@ -31416,8 +31372,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 	}
@@ -31432,8 +31386,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 	}
@@ -31449,8 +31401,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -31873,8 +31823,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -31944,8 +31892,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -32016,8 +31962,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -32268,8 +32212,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_cobalt_item"
@@ -32303,8 +32245,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_cobalt_item"
@@ -32339,8 +32279,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_cobalt_item"
@@ -32374,8 +32312,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -32434,8 +32370,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -32506,8 +32440,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -32577,8 +32509,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -32648,8 +32578,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -32721,8 +32649,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -33232,8 +33158,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -33303,8 +33227,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -33375,8 +33297,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -33631,8 +33551,6 @@ Blueprints
 			max "40"
 			gather_amount "40"
 			package_size "10"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -33719,8 +33637,6 @@ Blueprints
 			max "40"
 			gather_amount "40"
 			package_size "10"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -33808,8 +33724,6 @@ Blueprints
 			max "40"
 			gather_amount "40"
 			package_size "10"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -33896,8 +33810,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -33967,8 +33879,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -34039,8 +33949,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -34110,8 +34018,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -34181,8 +34087,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -34253,8 +34157,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -34324,8 +34226,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -34395,8 +34295,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -34467,8 +34365,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -34538,8 +34434,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -34609,8 +34503,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -34685,8 +34577,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -34756,8 +34646,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_palladium_item"
@@ -34827,8 +34715,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_palladium_item"
@@ -34903,8 +34789,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -34927,8 +34811,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -34952,8 +34834,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -34976,8 +34856,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_palladium_item"
@@ -35047,8 +34925,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35118,8 +34994,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35190,8 +35064,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35261,8 +35133,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35294,8 +35164,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35327,8 +35195,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35398,8 +35264,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35470,8 +35334,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35541,8 +35403,6 @@ Blueprints
 			max "250"
 			gather_amount "250"
 			package_size "35"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35621,8 +35481,6 @@ Blueprints
 			max "250"
 			gather_amount "250"
 			package_size "35"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35701,8 +35559,6 @@ Blueprints
 			max "150"
 			gather_amount "250"
 			package_size "35"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35781,8 +35637,6 @@ Blueprints
 			max "150"
 			gather_amount "250"
 			package_size "35"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35861,8 +35715,6 @@ Blueprints
 			max "150"
 			gather_amount "250"
 			package_size "35"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -35941,8 +35793,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -36013,8 +35863,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -36090,8 +35938,6 @@ Blueprints
 			max "15"
 			gather_amount "15"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -36161,8 +36007,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_palladium_item"
@@ -36196,8 +36040,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_palladium_item"
@@ -36232,8 +36074,6 @@ Blueprints
 			max "7"
 			gather_amount "7"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_palladium_item"
@@ -36267,8 +36107,6 @@ Blueprints
 			max "4"
 			gather_amount "4"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_carbonium_item"
@@ -36300,8 +36138,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -36371,8 +36207,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -36443,8 +36277,6 @@ Blueprints
 			max "10"
 			gather_amount "10"
 			package_size "20"
-			condition "has_research"
-			condition_value "gui/menu/research/name/biomass_energy_lvl1"
 		}
 
 		LootItem "items/loot/resources/shard_steel_item"
@@ -39812,12 +39644,6 @@ LootTemplates
 
 LootConditions
 {
-	LootCondition "items/loot/resources/biomass_animal_item"
-	{
-		condition "has_research"
-		condition_value "gui/menu/research/name/biomass_energy_lvl1"
-	}
-
 	LootCondition "items/loot/resources/shard_cobalt_item"
 	{
 		condition "has_research"
