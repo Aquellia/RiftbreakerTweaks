@@ -1,4 +1,4 @@
-//editor "offset(-832.716,-570.738)|zoom(1.000)"
+//editor "offset(-410.434,-486.948)|zoom(0.877)"
 FlowGraphTemplate
 {
 	version "74"
@@ -525,7 +525,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(9480,327)"
+			//editor "layout(condition_true.xml)|pos(9480,439)"
 			self_id "logic_if_exist_building_2###true"
 			key "true"
 			value "logic_if_exist_building_2###true"
@@ -593,7 +593,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(9491,623)"
+			//editor "layout(condition_true.xml)|pos(9491,735)"
 			self_id "logic_if_exist_building_3###true"
 			key "true"
 			value "logic_if_exist_building_3###true"
@@ -661,7 +661,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(10356,534)"
+			//editor "layout(condition_true.xml)|pos(10356,646)"
 			self_id "logic_if_exist_building_4###true"
 			key "true"
 			value "logic_if_exist_building_4###true"
@@ -736,7 +736,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(4816,2126)"
+			//editor "layout(condition_false.xml)|pos(4816,2238)"
 			self_id "logic_if_exist_building_5###false"
 			key "false"
 			value "logic_if_exist_building_5###false"
@@ -744,7 +744,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(4816,2226)"
+			//editor "layout(condition_true.xml)|pos(4816,2265)"
 			self_id "logic_if_exist_building_5###true"
 			key "true"
 			value "logic_if_exist_building_5###true"
@@ -1246,7 +1246,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(6792,-1194)"
+			//editor "layout(condition_true.xml)|pos(6792,-1087)"
 			self_id "logic_if_global_variable_0###true"
 			key "true"
 			value "logic_if_global_variable_0###true"
@@ -1460,7 +1460,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(4901,-2089)"
+			//editor "layout(condition_true.xml)|pos(4901,-1982)"
 			self_id "logic_if_global_variable_1###true"
 			key "true"
 			value "logic_if_global_variable_1###true"
@@ -1529,7 +1529,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(4906,-1832)"
+			//editor "layout(condition_true.xml)|pos(4906,-1725)"
 			self_id "logic_if_global_variable_2###true"
 			key "true"
 			value "logic_if_global_variable_2###true"
@@ -1598,7 +1598,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(4909,-1580)"
+			//editor "layout(condition_true.xml)|pos(4909,-1473)"
 			self_id "logic_if_global_variable_3###true"
 			key "true"
 			value "logic_if_global_variable_3###true"
@@ -1847,7 +1847,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(4898,-2412)"
+			//editor "layout(condition_true.xml)|pos(4898,-2305)"
 			self_id "logic_if_global_variable_4###true"
 			key "true"
 			value "logic_if_global_variable_4###true"
@@ -2474,7 +2474,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(9491,885)"
+			//editor "layout(condition_true.xml)|pos(9491,997)"
 			self_id "logic_if_exist_building_1###true"
 			key "true"
 			value "logic_if_exist_building_1###true"
@@ -2653,7 +2653,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(7469,1790)"
+			//editor "layout(condition_false.xml)|pos(7469,1982)"
 			self_id "logic_if_exist_entity_new_2###false"
 			key "false"
 			value "logic_if_exist_entity_new_2###false"
@@ -2661,7 +2661,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(7469,1890)"
+			//editor "layout(condition_true.xml)|pos(7469,2009)"
 			self_id "logic_if_exist_entity_new_2###true"
 			key "true"
 			value "logic_if_exist_entity_new_2###true"
