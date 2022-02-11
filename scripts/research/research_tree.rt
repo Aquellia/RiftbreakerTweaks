@@ -2137,6 +2137,12 @@ Research
 
 						ResearchAward
 						{
+							blueprint "items/loot/resources/biomass_animal_item"
+							is_visible "0"
+						}
+
+						ResearchAward
+						{
 							blueprint "items/loot/resources/biomass_plant_item"
 							is_visible "0"
 						}
@@ -2620,12 +2626,6 @@ Research
 						ResearchAward
 						{
 							blueprint "buildings/energy/animal_biomass_powerplant"
-							is_visible "1"
-						}
-
-						ResearchAward
-						{
-							blueprint "items/loot/resources/biomass_animal_item"
 							is_visible "1"
 						}
 
