@@ -1,70 +1,64 @@
 EntityBlueprint
 {
-	name "buildings/defense/tower_drone_attack_lvl_2"
-	
-	base_blueprint 			buildings/defense/tower_drone_attack	
+	name  "buildings/resources/solid_material_storage_lvl_3"
+
+	base_blueprint buildings/resources/solid_material_storage_lvl_2	
 
 	BuildingDesc
 	{
-		buildable			"0"
-		name 				"tower_drone_attack_lvl_2"
-		bp   				"buildings/defense/tower_drone_attack_lvl_2"
-		ghost_bp   			"buildings/defense/tower_drone_attack_lvl_2_ghost"
-		category 			"offense"
-		localization_id		"gui/hud/building_name/tower_drone_attack"
-		description			"gui/hud/building_description/tower_drone_attack"
-		menu_icon			"gui/hud/building_icons/tower_drone_attack_lvl2"
+		buildable 			"0"		
+		name 				"solid_material_storage_lvl_3"
+		bp   				"buildings/resources/solid_material_storage_lvl_3"
+		ghost_bp   			"buildings/resources/solid_material_storage_ghost_lvl_3"
+		category 			"logistics"
+		localization_id		"gui/hud/building_name/solid_material_storage"
+		description			"gui/hud/building_description/solid_material_storage"
+		menu_icon			"gui/hud/building_icons/solid_material_storage_lvl3"
 		require 			"headquarters"
-		order				"16"
-		type				"tower"
-		overrides			"wall,tower"
-		upgrade				"buildings/defense/tower_drone_attack_lvl_3"
+		//upgrade				"buildings/resources/solid_material_storage_lvl_4"
 		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
-
-
+				
 		costs
 		{
 			BuildingCostInfo
 			{
 				name "default"
-				building_time 2.5
+				building_time 10
 				building_cost
 				{
-					carbonium 	"100"
-					steel 		"40"
-					cobalt 		"10"
+					carbonium 	"400"
 				}
-			}
-		}		
+			}		
+		}	
 	}
 
-	ResourceConverterDesc // must be here for AI
+	ResourceStorageDesc
 	{
-		in
+		Storages
 		{
-			GameplayResource
+			Storage
 			{
-				resource 	"energy"
-				value 		"4"
-			}
+				group	 		"global"
+				subgroup		"base"
+				max 	 		"800"
+			}			
+			Storage
+			{
+				resource "energy"
+				max 	 "0"
+			}				
 		}
-
-		out
-		{
-		}
-
-		priority 6
 	}
-	
+
 	HealthDesc
 	{
-		max_health 					"750"
-		health 						"750"
+		max_health 					"1600"
+		health 						"1600"
 		regeneration 				"0"
 		regeneration_cooldown 		"0"
 		 is_manual 1
 		update_health_uniform 		"1"
-
+		
 		DestructionLevels
 		{
 			DestructionLevel
@@ -113,49 +107,53 @@ EntityBlueprint
 				//destroyed_state_effect_group 		"0_state"
 			}			
 		}
-	}		
+	}
 
 	MeshDesc
 	{
-		mesh 		"meshes/buildings/defense/tower_drone_attack_lvl_2.mesh"
-		material 	"buildings/defense/tower_drone_attack_lvl_2"
+		mesh "meshes/buildings/resources/solid_material_storage_lvl_3.mesh"
+		material "buildings/resources/solid_material_storage_lvl_3"
 	}
 
 	SkeletonDesc
 	{
-		name "meshes/buildings/defense/tower_drone_attack_lvl_2"
+		name "meshes/buildings/resources/solid_material_storage_lvl_3"
 	}
 
-	LuaDesc
+	AnimationDesc
 	{
-		script "lua/buildings/drone_spawner_building.lua"
-		
-		database
+		animations
 		{
-			cone_effect				string:"build_cone_3x3"
-			cone_effect_sell 		string:"sell_big"
-
-			drone_search_radius		float:"40"
-			drone_blueprint			string:"units/drones/drone_attack"
-			drone_attachments		string:"att_landing,att_landing_1"
-			drone_per_spot			int:"2"
-			drone_visible_on_spot 	int:"0"
+			Anim
+			{
+				animName "working_3"
+				animTime "0.0"
+			}
 		}
+	}
+
+	EffectDesc
+	{		
+		EffectBaseBlueprints
+		{
+			"buildings/effects_medium_base"
+		}	
+		
 	}
 }
 
 EntityBlueprint
 {
-	name "buildings/defense/tower_drone_attack_lvl_2_ghost"
+	name  "buildings/resources/solid_material_storage_ghost_lvl_3"
 
 	MeshDesc
 	{
-		mesh "meshes/buildings/defense/tower_drone_attack_lvl_2.mesh"
+		mesh "meshes/buildings/resources/solid_material_storage_lvl_3.mesh"
 		material "selector/hologram_blue"
 	}
 
 	PhysicsDesc
-	{
+ 	{
 		objects
 		{
 			PhysicsObjectDesc
@@ -165,12 +163,17 @@ EntityBlueprint
 				physics_material 	"default"
 				Shapes
 				{
-					PhysicsBoxShape
+					PhysicsSphereShape
 					{
-						x	4
-						y	4
-						z	4
-					}
+						r "2.45"
+	
+						position 
+						{
+							x "0.0"
+							y "1.0"
+							z "0.0"
+						}
+					}			
 				}
 			}
 		}
@@ -180,18 +183,10 @@ EntityBlueprint
 	{
 		Shapes
 		{
-			PhysicsBoxShape
+			PhysicsMeshShape
 			{
-				x	4
-				y	4
-				z	4
-			}
-		}
-	}
-
-	DisplayRadiusDesc
-	{
-		max_radius 40
+				mesh "meshes/buildings/resources/solid_material_storage_g1.nxs"
+			}	
+		}	
 	}
 }
-

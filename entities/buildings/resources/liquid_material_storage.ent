@@ -1,67 +1,83 @@
 EntityBlueprint
 {
-	name "buildings/defense/tower_mine_layer"
+	name  "buildings/resources/liquid_material_storage"
 
 	BuildingDesc
 	{
-		name 				"tower_mine_layer"
-		bp   				"buildings/defense/tower_mine_layer"
-		ghost_bp   			"buildings/defense/tower_mine_layer_ghost"
-		category 			"offense"
-		localization_id		"gui/hud/building_name/tower_mine_layer"
-		description			"gui/hud/building_description/tower_mine_layer"
-		menu_icon			"gui/hud/building_icons/tower_mine_layer"
+		name 				"liquid_material_storage"
+		bp   				"buildings/resources/liquid_material_storage"
+		ghost_bp   			"buildings/resources/liquid_material_storage_ghost"
+		category 			"logistics"
+		type				"pipe"
+		localization_id		"gui/hud/building_name/liquid_material_storage"
+		description			"gui/hud/building_description/liquid_material_storage"
+		menu_icon			"gui/hud/building_icons/liquid_material_storage"
 		require 			"headquarters"
-		order				"15"
-		type				"tower"
-		overrides			"wall,tower"
-		upgrade				"buildings/defense/tower_mine_layer_lvl_2"
+		upgrade				"buildings/resources/liquid_material_storage_lvl_2"			
+		order				"7"
 		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
-
-
+		menu_action			"resource_clear"	
+				
 		costs
 		{
 			BuildingCostInfo
 			{
 				name "default"
-				building_time 2.5
+				building_time 10
 				building_cost
 				{
-					carbonium 	"50"
-					steel 		"20"
-					ai			"1"
+					carbonium 	"100"
+					steel 		"100"	
 				}
 			}		
-		}		
+		}
 	}
 
-	ResourceConverterDesc // must be here for AI
+	ResourceStorageDesc
 	{
-		in
+		Storages
 		{
-			GameplayResource
+			Storage
 			{
-				resource 	"energy"
-				value 		"4"
+				group	 		"local"
+				max 	 		"3000"
+				attachment		"att_in_1|att_in_2|att_in_3|att_in_4"
 			}
+			Storage
+			{
+				resource "energy"
+				max 	 "0"
+			}				
 		}
+	}
 
-		out
+	PipeComponent
+	{
+		attachment		"att_in_1,att_in_2,att_in_3,att_in_4"
+	}
+
+	LuaDesc
+	{
+		script "lua/buildings/resources/pipe_straight.lua"
+		
+		database
 		{
+			cone_effect			string:"build_cone_3x3"
+			cone_effect_sell	string:"sell_big"
+			building_time		float:"10"
+			postfix				string:"_storage"
 		}
-
-		priority 6
 	}
 
 	HealthDesc
 	{
-		max_health 					"500"
-		health 						"500"
+		max_health 					"1000"
+		health 						"1000"
 		regeneration 				"0"
 		regeneration_cooldown 		"0"
 		 is_manual 1
 		update_health_uniform 		"1"
-
+		
 		DestructionLevels
 		{
 			DestructionLevel
@@ -70,6 +86,7 @@ EntityBlueprint
 				destroy_state_change_effect_group 	"80_transition"
 				destroy_comp_delay 					"0.5"
 				destroy_comp_event 					"80_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_50"
 				destroyed_state_effect_group 		"80_state"
 				destrucion_level_name 				"80"
 
@@ -80,6 +97,7 @@ EntityBlueprint
 				destroy_state_change_effect_group 	"60_transition"
 				destroy_comp_delay 					"0.5"
 				destroy_comp_event 					"60_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_25"
 				destroyed_state_effect_group 		"60_state"
 				destrucion_level_name 				"60"
 			}
@@ -89,6 +107,7 @@ EntityBlueprint
 				destroy_state_change_effect_group 	"40_transition"
 				destroy_comp_delay 					"0.5"
 				destroy_comp_event 					"40_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_0"
 				destroyed_state_effect_group 		"40_state"
 				destrucion_level_name 				"40"
 			}
@@ -98,6 +117,7 @@ EntityBlueprint
 				destroy_state_change_effect_group 	"20_transition"
 				destroy_comp_delay 					"0.5"
 				destroy_comp_event 					"20_destroy"
+				//destroyed_state_material 			"units_ground/medium_tank_regular_dest_0"
 				destroyed_state_effect_group 		"20_state"
 				destrucion_level_name 				"20"
 			}
@@ -107,6 +127,7 @@ EntityBlueprint
 				destroy_state_change_effect_group 	"0_transition"
 				destroy_comp_delay 					"0.6"
 				destroy_comp_event 					"default"
+				//destroyed_state_material 			"units_ground/medium_tank_regular_dest_0"
 				//destroyed_state_effect_group 		"0_state"
 			}			
 		}
@@ -114,43 +135,22 @@ EntityBlueprint
 
 	MeshDesc
 	{
-		mesh 		"meshes/buildings/defense/tower_mine_layer_lvl_1.mesh"
-		material 	"buildings/defense/tower_mine_layer_lvl_1"
+		mesh 		"meshes/buildings/resources/liquid_material_storage.mesh"
+		material 	"buildings/resources/liquid_material_storage"
 	}
 
 	TypeDesc
 	{
-		type "building|defense|tower"
+		type "building|resource"
 	}
 
 	SkeletonDesc
 	{
-		name "meshes/buildings/defense/tower_mine_layer_lvl_1"
-	}
-
-	AnimationGraphDesc
-	{
-		animation_graph_name "drone_building_working"
-	}
-
-	LuaDesc
-	{
-		script "lua/buildings/defense/tower_mine_layer.lua"
-		
-		database
-		{
-			cone_effect			string:"build_cone_3x3"
-			cone_effect_sell 	string:"sell_big"
-
-			drone_search_radius	float:"20"
-			drone_blueprint		string:"units/drones/drone_mine"
-			drone_attachments	string:"att_landing"
-			drone_per_spot		int:"1"
-		}
+		name "meshes/buildings/resources/liquid_material_storage"
 	}
 
 	PhysicsDesc
-	{
+ 	{
 		objects
 		{
 			PhysicsObjectDesc
@@ -162,13 +162,13 @@ EntityBlueprint
 				{
 					PhysicsCapsuleShape
 					{
-						r "1.45"
+						r "2.45"
 						half_height "2"
 
 						position 
 						{
 							x "0.0"
-							y "1.45"
+							y "1.5"
 							z "0.0"
 						}
 
@@ -179,7 +179,7 @@ EntityBlueprint
 							z "0.7"
 							y "0.0"
 						}
-					}	
+					}		
 				}
 			}
 		}
@@ -196,36 +196,35 @@ EntityBlueprint
 	{
 		Shapes
 		{
-			PhysicsBoxShape
+			PhysicsMeshShape
 			{
-				x	4
-				y	4
-				z	4
-			}
+				mesh "meshes/buildings/resources/liquid_material_storage_g1.nxs"
+			}	
 		}
 	}
 
 	MinimapItemDesc
 	{
 		type	"quad"
-		color
+		color 
 		{
-			x "1"
+			x "0.5"
 			y "0.5"
-			z "0"
+			z "1"
 			w "1"
 		}
 		size
 		{
-			x "1"
-			y "1"
+			x "3"
+			y "3"
 		}
+					
 		visibility			"always"
 	}
 
 	FogOfWarRevealerComponentDesc
 	{
-		radius "40"
+		radius "16"
 	}
 
 	HealthBarDesc
@@ -233,7 +232,13 @@ EntityBlueprint
 		type "2"
 		mode "1"
 	}
-	
+
+	LootDesc
+	{
+		explosion_max_power 	"2000"
+		explosion_min_power 	"1000"	
+	}
+
 	DestroyDesc
 	{
 		
@@ -338,28 +343,94 @@ EntityBlueprint
 			}				
 		}
 	}
-	
+
 	EffectDesc
 	{		
 		EffectBaseBlueprints
 		{
 			"buildings/effects_medium_base"
 		}	
-	}		
+////////////////////////Resources/////////////////////////			
+		EffectGroup
+		{
+			group "att_in_1"
+			enabled "0"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow_twosided"								
+					bone "att_in_1_arrow"
+				}
+			}
+		}		
+		EffectGroup
+		{
+			group "att_in_2"
+			enabled "0"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow_twosided"								
+					bone "att_in_2_arrow"
+				}
+			}
+		}	
+		EffectGroup
+		{
+			group "att_in_3"
+			enabled "0"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow_twosided"								
+					bone "att_in_3_arrow"
+				}
+			}
+		}	
+		EffectGroup
+		{
+			group "att_in_4"
+			enabled "0"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow_twosided"								
+					bone "att_in_4_arrow"
+				}
+			}
+		}	
+	}
 }
 
 EntityBlueprint
 {
-	name "buildings/defense/tower_mine_layer_ghost"
+	name  "buildings/resources/liquid_material_storage_ghost"
 
 	MeshDesc
 	{
-		mesh "meshes/buildings/defense/tower_mine_layer_lvl_1.mesh"
+		mesh "meshes/buildings/resources/liquid_material_storage.mesh"
 		material "selector/hologram_blue"
 	}
 
-	PhysicsDesc
+	SkeletonDesc
 	{
+		name "meshes/buildings/resources/liquid_material_storage"
+	}
+
+	PhysicsDesc
+ 	{
 		objects
 		{
 			PhysicsObjectDesc
@@ -369,12 +440,17 @@ EntityBlueprint
 				physics_material 	"default"
 				Shapes
 				{
-					PhysicsBoxShape
+					PhysicsSphereShape
 					{
-						x	4
-						y	4
-						z	4
-					}
+						r "2.45"
+	
+						position 
+						{
+							x "0.0"
+							y "1.0"
+							z "0.0"
+						}
+					}			
 				}
 			}
 		}
@@ -384,17 +460,76 @@ EntityBlueprint
 	{
 		Shapes
 		{
-			PhysicsBoxShape
+			PhysicsMeshShape
 			{
-				x	4
-				y	4
-				z	4
+				mesh "meshes/buildings/resources/liquid_material_storage_g1.nxs"
 			}
-		}
+		}	
 	}
 
-	DisplayRadiusDesc
+	EffectDesc
 	{
-		max_radius 20
+////////////////////////Resources/////////////////////////			
+		EffectGroup
+		{
+			group "att_in_1"
+			enabled "1"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow_twosided"								
+					bone "att_in_1_arrow"
+				}
+			}
+		}		
+		EffectGroup
+		{
+			group "att_in_2"
+			enabled "1"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow_twosided"								
+					bone "att_in_2_arrow"
+				}
+			}
+		}	
+		EffectGroup
+		{
+			group "att_in_3"
+			enabled "1"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow_twosided"								
+					bone "att_in_3_arrow"
+				}
+			}
+		}	
+		EffectGroup
+		{
+			group "att_in_4"
+			enabled "1"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow_twosided"								
+					bone "att_in_4_arrow"
+				}
+			}
+		}			
 	}
 }
+

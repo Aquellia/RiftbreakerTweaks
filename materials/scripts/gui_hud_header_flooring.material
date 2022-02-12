@@ -1,0 +1,17 @@
+import * from "materials/scripts/gui.material"
+
+material gui/hud/building_icons/flooring_structures_neutral : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/flooring_structures_neutral.dds
+}
+
+material gui/hud/building_icons/flooring_structures_active : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/flooring_structures_active.dds
+}
+
+material gui/hud/building_icons/flooring_structures_selected : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/flooring_structures_selected.dds
+}
+
