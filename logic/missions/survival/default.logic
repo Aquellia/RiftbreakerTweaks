@@ -1,7 +1,7 @@
-//editor "offset(10657.627,442.618)|zoom(1.000)"
+//editor "offset(10368.333,821.458)|zoom(0.721)"
 FlowGraphTemplate
 {
-	version "20"
+	version "21"
 	editor "3304"
 	GraphNodes
 	{
@@ -815,7 +815,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-6277,1404)"
+			//editor "layout(condition_false.xml)|pos(-6277,1516)"
 			self_id "logic_if_exist_building_0###false"
 			key "false"
 			value "logic_if_exist_building_0###false"
@@ -823,7 +823,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-6277,1504)"
+			//editor "layout(condition_true.xml)|pos(-6277,1543)"
 			self_id "logic_if_exist_building_0###true"
 			key "true"
 			value "logic_if_exist_building_0###true"
@@ -898,7 +898,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-4428,1504)"
+			//editor "layout(condition_false.xml)|pos(-4428,1616)"
 			self_id "logic_if_exist_building_1###false"
 			key "false"
 			value "logic_if_exist_building_1###false"
@@ -906,7 +906,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-4428,1604)"
+			//editor "layout(condition_true.xml)|pos(-4428,1643)"
 			self_id "logic_if_exist_building_1###true"
 			key "true"
 			value "logic_if_exist_building_1###true"
@@ -1034,7 +1034,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-2589,1366)"
+			//editor "layout(condition_true.xml)|pos(-2589,1478)"
 			self_id "logic_if_exist_building_2###true"
 			key "true"
 			value "logic_if_exist_building_2###true"
@@ -1042,7 +1042,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-2609,965)"
+			//editor "layout(condition_true.xml)|pos(-2609,1077)"
 			self_id "logic_if_exist_building_3###true"
 			key "true"
 			value "logic_if_exist_building_3###true"
@@ -1110,7 +1110,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-1625,1231)"
+			//editor "layout(condition_true.xml)|pos(-1625,1343)"
 			self_id "logic_if_exist_building_4###true"
 			key "true"
 			value "logic_if_exist_building_4###true"
@@ -1296,7 +1296,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-3724,-5002)"
+			//editor "layout(condition_true.xml)|pos(-3724,-4936)"
 			self_id "logic_check_difficulty_1###true"
 			key "true"
 			value "logic_check_difficulty_1###true"
@@ -1304,7 +1304,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-3724,-5029)"
+			//editor "layout(condition_false.xml)|pos(-3724,-5036)"
 			self_id "logic_check_difficulty_1###false"
 			key "false"
 			value "logic_check_difficulty_1###false"
@@ -1352,7 +1352,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-3212,-5202)"
+			//editor "layout(condition_false.xml)|pos(-3212,-5209)"
 			self_id "logic_check_difficulty_2###false"
 			key "false"
 			value "logic_check_difficulty_2###false"
@@ -1360,7 +1360,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-3212,-5102)"
+			//editor "layout(condition_true.xml)|pos(-3212,-5109)"
 			self_id "logic_check_difficulty_2###true"
 			key "true"
 			value "logic_check_difficulty_2###true"
@@ -1432,7 +1432,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-2748,-5442)"
+			//editor "layout(condition_false.xml)|pos(-2748,-5449)"
 			self_id "logic_check_difficulty_3###false"
 			key "false"
 			value "logic_check_difficulty_3###false"
@@ -1440,7 +1440,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-2748,-5415)"
+			//editor "layout(condition_true.xml)|pos(-2748,-5349)"
 			self_id "logic_check_difficulty_3###true"
 			key "true"
 			value "logic_check_difficulty_3###true"
@@ -1512,7 +1512,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-2194,-5633)"
+			//editor "layout(condition_false.xml)|pos(-2194,-5640)"
 			self_id "logic_check_difficulty_4###false"
 			key "false"
 			value "logic_check_difficulty_4###false"
@@ -1520,7 +1520,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-2194,-5606)"
+			//editor "layout(condition_true.xml)|pos(-2194,-5540)"
 			self_id "logic_check_difficulty_4###true"
 			key "true"
 			value "logic_check_difficulty_4###true"
@@ -1584,7 +1584,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10250,1377)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10259,1621)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1605,7 +1605,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10253,1504)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10262,1748)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1626,7 +1626,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10252,1618)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10261,1862)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1647,7 +1647,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(logic_wait.xml)|pos(-11480,1562)"
+			//editor "layout(logic_wait.xml)|pos(-11489,1806)"
 			script "lua/graph/logic/logic_wait.lua"
 			database
 			{
@@ -1676,7 +1676,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-11257,1392)"
+			//editor "layout(mission_unlock_research.xml)|pos(-11266,1636)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1697,7 +1697,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10810,1566)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10819,1810)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1718,7 +1718,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10251,1736)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10260,1980)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1739,7 +1739,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10794,2158)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10803,2402)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1760,7 +1760,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10245,2156)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10254,2400)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1781,7 +1781,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10242,2433)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10251,2677)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1802,7 +1802,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10797,2687)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10806,2931)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1823,7 +1823,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10247,2688)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10256,2932)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1844,7 +1844,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10789,2435)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10798,2679)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1865,7 +1865,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-10247,1841)"
+			//editor "layout(mission_unlock_research.xml)|pos(-10256,2085)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1886,7 +1886,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(logic_wait_on_reseach_finished.xml)|pos(-11258,1561)"
+			//editor "layout(logic_wait_on_reseach_finished.xml)|pos(-11267,1805)"
 			script "lua/graph/logic/logic_wait_on_research_finished.lua"
 			database
 			{
@@ -1907,7 +1907,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-11255,1272)"
+			//editor "layout(mission_unlock_research.xml)|pos(-11264,1516)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -1928,7 +1928,7 @@ FlowGraphTemplate
 
 		NodeSelectorNode
 		{
-			//editor "layout(logic_if_biome.xml)|pos(-11187,2078)"
+			//editor "layout(logic_if_biome.xml)|pos(-11196,2322)"
 			script "lua/graph/logic/logic_if_biome.lua"
 			database
 			{
@@ -1961,7 +1961,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-11172,2185)"
+			//editor "layout(condition_true.xml)|pos(-11181,2429)"
 			self_id "logic_if_biome_0###true"
 			key "true"
 			value "logic_if_biome_0###true"
@@ -1969,7 +1969,7 @@ FlowGraphTemplate
 
 		NodeSelectorNode
 		{
-			//editor "layout(logic_if_biome.xml)|pos(-11187,2356)"
+			//editor "layout(logic_if_biome.xml)|pos(-11196,2600)"
 			script "lua/graph/logic/logic_if_biome.lua"
 			database
 			{
@@ -2002,7 +2002,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-11172,2463)"
+			//editor "layout(condition_true.xml)|pos(-11181,2707)"
 			self_id "logic_if_biome_1###true"
 			key "true"
 			value "logic_if_biome_1###true"
@@ -2010,7 +2010,7 @@ FlowGraphTemplate
 
 		NodeSelectorNode
 		{
-			//editor "layout(logic_if_biome.xml)|pos(-11187,2606)"
+			//editor "layout(logic_if_biome.xml)|pos(-11196,2850)"
 			script "lua/graph/logic/logic_if_biome.lua"
 			database
 			{
@@ -2043,7 +2043,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-11172,2713)"
+			//editor "layout(condition_true.xml)|pos(-11181,2957)"
 			self_id "logic_if_biome_2###true"
 			key "true"
 			value "logic_if_biome_2###true"
@@ -2051,7 +2051,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(entity_add_resource.xml)|pos(-9823,202)"
+			//editor "layout(entity_add_resource.xml)|pos(-9825,509)"
 			script "lua/graph/entity/entity_add_resource.lua"
 			self_id "entity_add_resource_1"
 			database
@@ -2088,7 +2088,7 @@ FlowGraphTemplate
 
 		NodeSelectorNode
 		{
-			//editor "layout(logic_if_biome.xml)|pos(-10234,177)"
+			//editor "layout(logic_if_biome.xml)|pos(-10236,484)"
 			script "lua/graph/logic/logic_if_biome.lua"
 			database
 			{
@@ -2121,7 +2121,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-10219,284)"
+			//editor "layout(condition_true.xml)|pos(-10221,591)"
 			self_id "logic_if_biome_3###true"
 			key "true"
 			value "logic_if_biome_3###true"
@@ -2129,7 +2129,7 @@ FlowGraphTemplate
 
 		NodeSelectorNode
 		{
-			//editor "layout(logic_if_biome.xml)|pos(-10232,512)"
+			//editor "layout(logic_if_biome.xml)|pos(-10234,819)"
 			script "lua/graph/logic/logic_if_biome.lua"
 			database
 			{
@@ -2162,7 +2162,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-10217,619)"
+			//editor "layout(condition_true.xml)|pos(-10219,926)"
 			self_id "logic_if_biome_4###true"
 			key "true"
 			value "logic_if_biome_4###true"
@@ -2170,7 +2170,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(entity_add_resource.xml)|pos(-9829,533)"
+			//editor "layout(entity_add_resource.xml)|pos(-9831,840)"
 			script "lua/graph/entity/entity_add_resource.lua"
 			self_id "entity_add_resource_2"
 			database
@@ -2200,7 +2200,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(entity_add_resource.xml)|pos(-9837,842)"
+			//editor "layout(entity_add_resource.xml)|pos(-9839,1149)"
 			script "lua/graph/entity/entity_add_resource.lua"
 			self_id "entity_add_resource_3"
 			database
@@ -2230,7 +2230,7 @@ FlowGraphTemplate
 
 		NodeSelectorNode
 		{
-			//editor "layout(logic_if_biome.xml)|pos(-10240,821)"
+			//editor "layout(logic_if_biome.xml)|pos(-10242,1128)"
 			script "lua/graph/logic/logic_if_biome.lua"
 			database
 			{
@@ -2263,7 +2263,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-10225,928)"
+			//editor "layout(condition_true.xml)|pos(-10227,1235)"
 			self_id "logic_if_biome_5###true"
 			key "true"
 			value "logic_if_biome_5###true"
@@ -2311,7 +2311,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-5115,-3640)"
+			//editor "layout(condition_true.xml)|pos(-5115,-3713)"
 			self_id "logic_if_biome_6###true"
 			key "true"
 			value "logic_if_biome_6###true"
@@ -2607,7 +2607,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-3890,-3827)"
+			//editor "layout(condition_false.xml)|pos(-3890,-3834)"
 			self_id "logic_check_difficulty_5###false"
 			key "false"
 			value "logic_check_difficulty_5###false"
@@ -2615,7 +2615,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-3890,-3727)"
+			//editor "layout(condition_true.xml)|pos(-3890,-3734)"
 			self_id "logic_check_difficulty_5###true"
 			key "true"
 			value "logic_check_difficulty_5###true"
@@ -2623,7 +2623,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-4402,-3654)"
+			//editor "layout(condition_false.xml)|pos(-4402,-3661)"
 			self_id "logic_check_difficulty_6###false"
 			key "false"
 			value "logic_check_difficulty_6###false"
@@ -2631,7 +2631,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-4402,-3627)"
+			//editor "layout(condition_true.xml)|pos(-4402,-3561)"
 			self_id "logic_check_difficulty_6###true"
 			key "true"
 			value "logic_check_difficulty_6###true"
@@ -2639,7 +2639,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-2868,-4278)"
+			//editor "layout(condition_false.xml)|pos(-2868,-4285)"
 			self_id "logic_check_difficulty_7###false"
 			key "false"
 			value "logic_check_difficulty_7###false"
@@ -2647,7 +2647,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-2868,-4251)"
+			//editor "layout(condition_true.xml)|pos(-2868,-4185)"
 			self_id "logic_check_difficulty_7###true"
 			key "true"
 			value "logic_check_difficulty_7###true"
@@ -2655,7 +2655,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-3422,-4087)"
+			//editor "layout(condition_false.xml)|pos(-3422,-4094)"
 			self_id "logic_check_difficulty_8###false"
 			key "false"
 			value "logic_check_difficulty_8###false"
@@ -2663,7 +2663,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-3422,-4060)"
+			//editor "layout(condition_true.xml)|pos(-3422,-3994)"
 			self_id "logic_check_difficulty_8###true"
 			key "true"
 			value "logic_check_difficulty_8###true"
@@ -2823,7 +2823,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-5108,-5022)"
+			//editor "layout(condition_false.xml)|pos(-5108,-5029)"
 			self_id "logic_if_biome_9###false"
 			key "false"
 			value "logic_if_biome_9###false"
@@ -2831,7 +2831,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-5108,-4995)"
+			//editor "layout(condition_true.xml)|pos(-5108,-4929)"
 			self_id "logic_if_biome_9###true"
 			key "true"
 			value "logic_if_biome_9###true"
@@ -3157,7 +3157,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-3468,-2701)"
+			//editor "layout(condition_false.xml)|pos(-3468,-2708)"
 			self_id "logic_check_difficulty_11###false"
 			key "false"
 			value "logic_check_difficulty_11###false"
@@ -3165,7 +3165,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-3468,-2674)"
+			//editor "layout(condition_true.xml)|pos(-3468,-2608)"
 			self_id "logic_check_difficulty_11###true"
 			key "true"
 			value "logic_check_difficulty_11###true"
@@ -3173,7 +3173,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-2914,-2892)"
+			//editor "layout(condition_false.xml)|pos(-2914,-2899)"
 			self_id "logic_check_difficulty_12###false"
 			key "false"
 			value "logic_check_difficulty_12###false"
@@ -3181,7 +3181,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-2914,-2865)"
+			//editor "layout(condition_true.xml)|pos(-2914,-2799)"
 			self_id "logic_check_difficulty_12###true"
 			key "true"
 			value "logic_check_difficulty_12###true"
@@ -3493,7 +3493,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-4031,-1011)"
+			//editor "layout(condition_true.xml)|pos(-4031,-1084)"
 			self_id "logic_check_difficulty_14###true"
 			key "true"
 			value "logic_check_difficulty_14###true"
@@ -3501,7 +3501,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-3563,-1371)"
+			//editor "layout(condition_false.xml)|pos(-3563,-1378)"
 			self_id "logic_check_difficulty_15###false"
 			key "false"
 			value "logic_check_difficulty_15###false"
@@ -3509,7 +3509,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-3563,-1344)"
+			//editor "layout(condition_true.xml)|pos(-3563,-1278)"
 			self_id "logic_check_difficulty_15###true"
 			key "true"
 			value "logic_check_difficulty_15###true"
@@ -3517,7 +3517,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(-3009,-1562)"
+			//editor "layout(condition_false.xml)|pos(-3009,-1569)"
 			self_id "logic_check_difficulty_16###false"
 			key "false"
 			value "logic_check_difficulty_16###false"
@@ -3525,7 +3525,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(-3009,-1535)"
+			//editor "layout(condition_true.xml)|pos(-3009,-1469)"
 			self_id "logic_check_difficulty_16###true"
 			key "true"
 			value "logic_check_difficulty_16###true"
@@ -3595,7 +3595,7 @@ FlowGraphTemplate
 
 		LuaBehaviourNode
 		{
-			//editor "layout(mission_unlock_research.xml)|pos(-9703,2434)"
+			//editor "layout(mission_unlock_research.xml)|pos(-9712,2678)"
 			script "lua/graph/mission_state/mission_unlock_research.lua"
 			database
 			{
@@ -3937,7 +3937,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(89,-3470)"
+			//editor "layout(condition_false.xml)|pos(89,-3477)"
 			self_id "logic_if_biome_12###false"
 			key "false"
 			value "logic_if_biome_12###false"
@@ -3945,7 +3945,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(89,-3443)"
+			//editor "layout(condition_true.xml)|pos(89,-3377)"
 			self_id "logic_if_biome_12###true"
 			key "true"
 			value "logic_if_biome_12###true"
@@ -3993,7 +3993,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(467,-3666)"
+			//editor "layout(condition_false.xml)|pos(467,-3673)"
 			self_id "logic_if_biome_13###false"
 			key "false"
 			value "logic_if_biome_13###false"
@@ -4001,7 +4001,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(467,-3639)"
+			//editor "layout(condition_true.xml)|pos(467,-3573)"
 			self_id "logic_if_biome_13###true"
 			key "true"
 			value "logic_if_biome_13###true"
@@ -4080,7 +4080,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(912,-3842)"
+			//editor "layout(condition_false.xml)|pos(912,-3849)"
 			self_id "logic_if_biome_14###false"
 			key "false"
 			value "logic_if_biome_14###false"
@@ -4088,7 +4088,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(912,-3742)"
+			//editor "layout(condition_true.xml)|pos(912,-3749)"
 			self_id "logic_if_biome_14###true"
 			key "true"
 			value "logic_if_biome_14###true"
@@ -4167,7 +4167,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_false.xml)|pos(1394,-4005)"
+			//editor "layout(condition_false.xml)|pos(1394,-4012)"
 			self_id "logic_if_biome_15###false"
 			key "false"
 			value "logic_if_biome_15###false"
@@ -4175,7 +4175,7 @@ FlowGraphTemplate
 
 		FlowGraphNode
 		{
-			//editor "layout(condition_true.xml)|pos(1394,-3978)"
+			//editor "layout(condition_true.xml)|pos(1394,-3912)"
 			self_id "logic_if_biome_15###true"
 			key "true"
 			value "logic_if_biome_15###true"
@@ -4486,10 +4486,82 @@ FlowGraphTemplate
 			self_id "objective_finish_0"
 		}
 
+		NodeSelectorNode
+		{
+			//editor "layout(logic_if_biome.xml)|pos(-10201,208)"
+			script "lua/graph/logic/logic_if_biome.lua"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "biome"
+						value "jungle"
+					}
+
+				}
+
+			}
+
+			self_id "logic_if_biome_16"
+			conditions
+			{
+				//editor "expanded(1)"
+				ConditionData
+				{
+					//editor "layout(condition_true.xml)"
+					key "true"
+					value "logic_if_biome_16###true"
+				}
+
+			}
+
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(entity_add_resource.xml)|pos(-9818,242)"
+			script "lua/graph/entity/entity_add_resource.lua"
+			self_id "entity_add_resource_4"
+			database
+			{
+				Strings
+				{
+					//editor "expanded(1)"
+					StringData
+					{
+						//editor "layout(data_block_resource.xml)"
+						key "carbonium"
+						value "150.00"
+					}
+
+					StringData
+					{
+						//editor "layout(data_block_resource.xml)"
+						key "steel"
+						value "100.00"
+					}
+
+				}
+
+			}
+
+		}
+
+		FlowGraphNode
+		{
+			//editor "layout(condition_true.xml)|pos(-10186,315)"
+			self_id "logic_if_biome_16###true"
+			key "true"
+			value "logic_if_biome_16###true"
+		}
+
 	}
 
 	GraphConnections
 	{
+		logic_if_biome_16###true "entity_add_resource_4"
 		logic_wait_11 "mission_end_1"
 		logic_if_exist_building_6 "logic_if_exist_building_6###true"
 		logic_if_biome_14###true "entity_add_item_1"
@@ -4552,6 +4624,7 @@ FlowGraphTemplate
 		event_graph_1700 "logic_or_5"
 		event_graph_1500 "logic_or_5"
 		logic_if_biome_6###false "logic_wait_10"
+		logic_if_biome_16 "logic_if_biome_16###true"
 		logic_if_biome_4 "logic_if_biome_4###true"
 		logic_if_biome_3###true "entity_add_resource_1"
 		event_graph_1800 "logic_or_5"
@@ -4646,7 +4719,7 @@ FlowGraphTemplate
 		event_graph_9 "logic_or_4"
 		logic_check_difficulty_15###false "logic_check_difficulty_16"
 		logic_wait_8 "logic_if_exist_building_5"
-		logic_wait_1 "entity_add_resource_0|logic_if_biome_3|logic_if_biome_4|logic_if_biome_5"
+		logic_wait_1 "entity_add_resource_0|logic_if_biome_16|logic_if_biome_3|logic_if_biome_4|logic_if_biome_5"
 		logic_check_difficulty_10###true "event_graph_17"
 		event_graph_8 "logic_or_0"
 		logic_if_console_var_0###true "logic_if_biome_10"
@@ -4665,7 +4738,7 @@ FlowGraphTemplate
 		entity_spawn_player_0 "event_graph_0|event_graph_14|logic_check_difficulty_0|logic_wait_on_event_0"
 		logic_check_difficulty_2 "logic_check_difficulty_2###false|logic_check_difficulty_2###true"
 		logic_if_biome_5 "logic_if_biome_5###true"
-		observer_2_1_0 "event_graph_19|logic_if_biome_11|logic_if_console_var_0"
+		observer_2_1_0 "event_graph_19|logic_if_biome_11"
 		logic_check_difficulty_11 "logic_check_difficulty_11###false|logic_check_difficulty_11###true"
 		mission_unlock_research_9 "mission_unlock_research_10"
 		logic_if_biome_1 "logic_if_biome_1###true"

@@ -303,6 +303,8 @@ EntityBlueprint
 	{
 		mesh 		"meshes/buildings/energy/energy_line.mesh"
 		material 	"buildings/energy/energy_line"
+		
+		flags "2"
 	}
 }
 
@@ -314,6 +316,8 @@ EntityBlueprint
 	{
 		mesh 		"meshes/buildings/energy/energy_line.mesh"
 		material 	"selector/hologram_blue"
+		
+		flags "2"
 	}
 }
 

@@ -6575,7 +6575,7 @@ GuiRootGroupDef
 											{
 												model_field "gamepad_active"
 											}
-
+											
 											material
 											{
 												model_field "right_key"
@@ -10066,7 +10066,7 @@ GuiRootGroupDef
 
 										size
 										{
-											x "900.000"
+											x "450.000"
 											y "74.000"
 										}
 
@@ -10138,7 +10138,7 @@ GuiRootGroupDef
 
 							size
 							{
-								x "900.000"
+								x "450.000"
 								y "86.000"
 							}
 
@@ -10986,7 +10986,7 @@ GuiRootGroupDef
 
 				size
 				{
-					x "900.000"
+					x "450.000"
 					y "86.000"
 				}
 
@@ -11111,7 +11111,7 @@ GuiRootGroupDef
 				z_order "13.000"
 				offset
 				{
-					x "410.000"
+					x "960.000"
 					y "1080.000"
 				}
 

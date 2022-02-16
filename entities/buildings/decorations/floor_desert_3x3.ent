@@ -16,6 +16,7 @@ EntityBlueprint
 		building_mode		"1"
 		buildable 			"0"
 		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground,creeper_area"
+		overrides			"floor"
 
 		costs
 		{

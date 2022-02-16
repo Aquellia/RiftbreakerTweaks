@@ -53,6 +53,7 @@ EntityBlueprint
 		order				"10"
 		type				"tower"
 		overrides			"tower,wall"
+		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
 		//upgrade				"buildings/defense/tower_flamer_lvl_4"
 
 		costs

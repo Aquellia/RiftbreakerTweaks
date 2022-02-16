@@ -16,9 +16,10 @@ EntityBlueprint
 		require 			"headquarters"
 		order				"16"
 		type				"tower"
-		overrides			"tower,wall"
+		overrides			"tower,wall,pipe_ground,pipe_connector_t,pipe_connector_x,pipe_corner,pipeline,pipe_straight_windowless"
 		//upgrade				"buildings/defense/tower_heavy_artillery_lvl_4"
 		buildable			"0"
+		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
 
 		costs
 		{

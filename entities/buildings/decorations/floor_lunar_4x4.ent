@@ -16,6 +16,7 @@ EntityBlueprint
 		buildable 			"0"
 		building_mode		"1"
 		exclude_terrain_types "quicksand,magma_hot_ground,magma_very_hot_ground,creeper_area"
+		overrides			"floor"
 
 		costs
 		{
@@ -143,7 +144,7 @@ EntityBlueprint
 	{
 		mesh "meshes/buildings/decorations/floor_basic_4x4_nosides.mesh"
 		material "buildings/decorations/floor_lunar_4x4_01"
-		flags "4"
+		flags "2"
 	}
 }
 
@@ -155,7 +156,7 @@ EntityBlueprint
 	{
 		mesh "meshes/buildings/decorations/floor_basic_4x4_nosides.mesh"
 		material "buildings/decorations/floor_lunar_4x4_02"
-		flags "4"
+		flags "2"
 	}
 }
 
@@ -167,7 +168,7 @@ EntityBlueprint
 	{
 		mesh "meshes/buildings/decorations/floor_basic_4x4_nosides.mesh"
 		material "buildings/decorations/floor_lunar_4x4_03"
-		flags "4"
+		flags "2"
 	}
 }
 
@@ -179,7 +180,7 @@ EntityBlueprint
 	{
 		mesh "meshes/buildings/decorations/floor_basic_4x4_nosides.mesh"
 		material "buildings/decorations/floor_lunar_4x4_04"
-		flags "4"
+		flags "2"
 	}
 }
 

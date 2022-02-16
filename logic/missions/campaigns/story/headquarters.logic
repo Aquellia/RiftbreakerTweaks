@@ -1,8 +1,8 @@
-//editor "offset(-410.434,-486.948)|zoom(0.877)"
+//editor "offset(-5809.027,87.191)|zoom(0.848)"
 FlowGraphTemplate
 {
-	version "74"
-	editor "4884"
+	version "73"
+	editor "3304"
 	GraphNodes
 	{
 		LuaBehaviourNode
