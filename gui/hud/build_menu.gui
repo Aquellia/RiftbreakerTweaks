@@ -175,7 +175,7 @@ GuiRootGroupDef
 				alignment "buttons"
 				delay "0.000"
 				horizontal "1"
-				items_number "9"
+				items_number "10"
 				scripts
 				{
 					scripts
@@ -10066,7 +10066,7 @@ GuiRootGroupDef
 
 										size
 										{
-											x "450.000"
+											x "900.000"
 											y "74.000"
 										}
 
@@ -10138,7 +10138,7 @@ GuiRootGroupDef
 
 							size
 							{
-								x "450.000"
+								x "900.000"
 								y "86.000"
 							}
 
@@ -10986,7 +10986,7 @@ GuiRootGroupDef
 
 				size
 				{
-					x "450.000"
+					x "900.000"
 					y "86.000"
 				}
 
@@ -11111,7 +11111,7 @@ GuiRootGroupDef
 				z_order "13.000"
 				offset
 				{
-					x "960.000"
+					x "410.000"
 					y "1080.000"
 				}
 
