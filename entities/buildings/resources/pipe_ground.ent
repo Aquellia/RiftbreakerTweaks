@@ -39,6 +39,19 @@ EntityBlueprint
 		}
 	}
 
+	ResourceStorageDesc
+	{
+		Storages
+		{
+			Storage
+			{
+				resource 			"energy"
+				distribution_radius	"2"
+			}
+		}
+	}
+
+
 	PipeComponent
 	{
 		

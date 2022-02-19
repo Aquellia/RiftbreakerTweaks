@@ -39,6 +39,19 @@ EntityBlueprint
 			I		"buildings/resources/pipe_straight,buildings/resources/pipe_straight_windowless"
 		}
 	}
+
+	ResourceStorageDesc
+	{
+		Storages
+		{
+			Storage
+			{
+				resource 			"energy"
+				distribution_radius	"2"
+			}
+		}
+	}
+
 	
 	PipeComponent
 	{
