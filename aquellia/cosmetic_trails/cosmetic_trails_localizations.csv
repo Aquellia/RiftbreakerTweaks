@@ -1,0 +1,4 @@
+;ENGLISH;POLISH;RUSSIAN;FRENCH;GERMAN;SPANISH;BRASILIAN;CHINESE_SP;JAPANESE;KOREAN
+gui/hud/building_name/cosmetic_trails_wardrobe;Cosmetic Trail Wardrobe;;;;;;;;;
+gui/hud/building_description/cosmetic_trails_wardrobe;Enable and set effect trails for Mr. Riggs;;;;;;;;;
+gui/hud/build_menu/info.trails;Trail Effect;;;;;;;;;
