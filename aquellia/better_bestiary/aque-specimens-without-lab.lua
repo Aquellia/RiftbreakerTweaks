@@ -1,2 +1,0 @@
---- Removes the Laboratory requirement for Specimen loot drops
--- Todo
